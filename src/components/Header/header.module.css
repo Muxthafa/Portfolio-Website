@@ -1,0 +1,26 @@
+.hamMenu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .hamMenu {
+    display: block;
+  }
+}
+
+.display-enter {
+  opacity: 0;
+}
+.display-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.display-exit {
+  opacity: 1;
+}
+.display-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
