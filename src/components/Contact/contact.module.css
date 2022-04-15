@@ -8,6 +8,7 @@
 
 .cwrapper {
   padding: 70px;
+  padding-right: 50px;
   display: flex;
 }
 
@@ -19,13 +20,13 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-left: 26px;
 }
 
 .ctitle {
   font-size: 5rem;
   font-weight: 300;
+  margin-top: 30px;
 }
 
 .cinfoitem {
@@ -40,11 +41,87 @@
   font-size: 2rem;
   font-weight: 100;
   margin-left: 1.5rem;
-  color: #bac964;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .cdesc {
   font-weight: 200;
+}
+
+.mb5 {
+  margin-bottom: 3rem !important; 
+}
+.formcontrol {
+  border: none !important;
+  background: #333;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important; 
+}
+  .formcontrol:active, .formcontrol:focus {
+    background: #404040;
+    outline: none;
+  }
+  .formcontrol::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+  }
+  .formcontrol::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+  }
+  .formcontrol:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+  }
+  .formcontrol:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+  }
+
+.siteform .formcontrol {
+  border: 1px solid #b3bdc6; 
+}
+.px3 {
+  padding: 1rem !important;
+}
+
+.btn {
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2rem; 
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none !important;
+  transition: 0.2s;
+}
+  .btn.btnprimary {
+    color: #fff; 
+    background: #b2c251; 
+  }
+
+  .btn:active{
+    transform: translateY(1px);
+  }
+
+.formgroup {
+  margin-bottom: 1rem; 
+}
+
+.formgroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 0; 
 }
 
 /* form {
@@ -78,9 +155,16 @@ button {
 } */
 
 @media screen and (max-width: 480px) {
+  .cbg {
+    width: 15px;
+    height: 82%;
+    top: 17rem;
+    background-color: #bac964;
+    position: absolute;
+  }
   .cwrapper {
     flex-direction: column;
-    padding: 0px 50px;
+    padding: 0px 25px;
   }
 
   .ctitle {
@@ -91,9 +175,16 @@ button {
     margin: 20px 0px;
     width: 100%;
   }
+  .cleft {
+    padding-left: 26px;
+  }
 
   .cdesc {
     display: none;
+  }
+
+  .para {
+    font-size: 1.6rem;
   }
 
   /* form {

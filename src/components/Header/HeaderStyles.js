@@ -9,7 +9,6 @@ export const Container = styled.div`
   align-items: center;
   padding: 1rem;
   padding-top: 2rem;
-  position: sticky;
   top: 0;
   z-index: 999;
   background-color: ${({ sticky }) => sticky || ""};
