@@ -51,7 +51,7 @@ const Contact = () => {
   };
 
   return (
-    <Section style={{ marginTop: "26px" }}>
+    <Section style={{ margin: "26px 0 26px 0" }}>
       <SectionDivider />
       <SectionTitle main id="contact">
         Contact
