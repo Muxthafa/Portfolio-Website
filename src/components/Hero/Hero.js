@@ -17,11 +17,11 @@ const Hero = (props) => (
         <h1 className={styles.iname}>Mohammad Musthafa</h1>
         <div className={styles.ititle}>
           <div className={styles.ititlewrapper}>
-            <div className={styles.ititleitem}>Web Developer</div>
-            <div className={styles.ititleitem}>UI/UX Designer</div>
-            <div className={styles.ititleitem}>Photographer</div>
-            <div className={styles.ititleitem}>Writer</div>
-            <div className={styles.ititleitem}>Content Creator</div>
+            <div className={styles.ititleitem}>Frontend developer</div>
+            <div className={styles.ititleitem}>Figma tool experience</div>
+            <div className={styles.ititleitem}>Backend Api</div>
+            <div className={styles.ititleitem}>Software plugin development</div>
+            <div className={styles.ititleitem}>Java programmer</div>
           </div>
         </div>
         <p className={styles.idesc}>
