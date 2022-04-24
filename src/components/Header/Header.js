@@ -90,13 +90,13 @@ const Header = () => {
         ))}
       </Div2>
       <Div3>
-        <SocialIcons href="https://github.com">
+        <SocialIcons href="https://github.com/Muxthafa">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://linkedin.com">
+        <SocialIcons href="https://linkedin.com/in/mohammad-musthafa-1276861b3">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://instagram.com">
+        <SocialIcons href="https://instagram.com/muxthafafa">
           <AiFillInstagram size="3rem" />
         </SocialIcons>
       </Div3>
