@@ -1,12 +1,4 @@
 import React from "react";
-
-import {
-  Section,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, Container, Div2, Div1 } from "./HeroStyles";
 import styles from "./hero.module.css";
 
 const Hero = (props) => (
@@ -18,10 +10,10 @@ const Hero = (props) => (
         <div className={styles.ititle}>
           <div className={styles.ititlewrapper}>
             <div className={styles.ititleitem}>Frontend developer</div>
-            <div className={styles.ititleitem}>Figma tool experience</div>
-            <div className={styles.ititleitem}>Backend Api</div>
-            <div className={styles.ititleitem}>Software plugin development</div>
             <div className={styles.ititleitem}>Java programmer</div>
+            <div className={styles.ititleitem}>Backend development</div>
+            <div className={styles.ititleitem}>Plugin development</div>
+            <div className={styles.ititleitem}>Figma tool experience</div>
           </div>
         </div>
         <p className={styles.idesc}>

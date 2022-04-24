@@ -30,7 +30,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Unichat",
+    title: "Book store",
     description:
       "A bookstore application consists of a web portal where we will sell books online. This web application would allow users to search for books by name or the author's name, select and purchase books as per their choice, and pay for the books. The users have to sign in to place an order",
     image: "/images/4.png",
